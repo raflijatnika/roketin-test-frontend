@@ -71,8 +71,12 @@
       }
     }
 
-    > body > tr:not(:last-child) {
+    > tbody > tr:not(:last-child) {
       border-bottom: none !important;
+    }
+
+    > tbody > tr:hover {
+      background-color: #f5f7fa !important;
     }
   }
 

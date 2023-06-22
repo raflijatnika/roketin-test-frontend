@@ -19,7 +19,15 @@ Vue.use(VueRouter);
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes: routesModules,
+  routes: [
+    // Entry Point
+    {
+      path: '',
+      meta: { layout: 'public', type: 'COMMON' },
+      component: () => import(/* webpackChunkName: "entry-point" */ '@/modules/app/ui/components/common/AppEntryPoint.vue'),
+    },
+    ...routesModules,
+  ],
 });
 
 export default router;
