@@ -34,28 +34,6 @@
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#built-with">Built With</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
 ### Built With
 
 Here are a few plugins or library used on this template.
@@ -87,7 +65,7 @@ Before use this template make sure you already installed this few things.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/raflijatnika/vue-2-ddd-patern.git
+   git clone https://github.com/raflijatnika/roketin-test-frontend.git
    ```
 2. Install NPM packages
    ```sh
@@ -123,7 +101,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@iFlyyX\_](https://twitter.com/iFlyyX_) - raflijatnikaa@gmail.com
+Rafli Jatnika - [@iFlyyX\_](https://twitter.com/iFlyyX_) - raflijatnikaa@gmail.com
 
 Project Link: [https://github.com/raflijatnika/vue-2-ddd-patern](https://github.com/raflijatnika/vue-2-ddd-patern)
 
