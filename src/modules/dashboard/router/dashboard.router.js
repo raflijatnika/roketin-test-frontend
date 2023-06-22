@@ -8,7 +8,7 @@ export default {
     {
       path: '',
       name: 'DashboardIndex',
-      meta: { layout: 'default' },
+      meta: { layout: 'public' },
       component: () => import(/* webpackChunkName: "dashboard-index" */ '../ui/DashboardUI.vue'),
     },
   ],

@@ -39,3 +39,50 @@
     cursor: default;
   }
 }
+
+// TABLE
+::v-deep .custom-table {
+  background: transparent !important;
+  border: none !important;
+  border-collapse: collapse !important;
+
+  > .v-data-table__wrapper > table {
+    border: none !important;
+    border-collapse: collapse !important;
+
+    > thead > tr {
+      th {
+        border: none !important;
+        color: #0d5ea8 !important;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        height: auto;
+        white-space: nowrap;
+      }
+    }
+
+    > tbody > tr {
+      background-color: transparent !important;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.02) !important;
+      border: none !important;
+
+      td {
+        border: none !important;
+      }
+    }
+
+    > body > tr:not(:last-child) {
+      border-bottom: none !important;
+    }
+  }
+
+  &.empty-with-dash {
+    tbody {
+      td:empty {
+        &:before {
+          content: '-';
+        }
+      }
+    }
+  }
+}
