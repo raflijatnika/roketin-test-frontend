@@ -5,14 +5,11 @@
 *** Thanks again! Lets create something amazing! <3
 -->
 
-
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -37,8 +34,6 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -61,16 +56,16 @@
   </ol>
 </details>
 
-
 ### Built With
 
 Here are a few plugins or library used on this template.
-* [Vuetify](https://vuetifyjs.com/en/)
-* [Vuex](https://vuex.vuejs.org/)
-* [Axios](https://www.npmjs.com/package/axios)
 
+- [Vuetify](https://vuetifyjs.com/en/)
+- [Vuex](https://vuex.vuejs.org/)
+- [Axios](https://www.npmjs.com/package/axios)
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 Before clone and use this template see the Prerequisites manu to see everything that you have to install first.
@@ -78,11 +73,12 @@ Before clone and use this template see the Prerequisites manu to see everything 
 ### Prerequisites
 
 Before use this template make sure you already installed this few things.
-* npm
+
+- npm
   ```sh
   npm install npm@latest -g
   ```
-* vue
+- vue
   ```sh
   npm install -g @vue/cli
   ```
@@ -95,23 +91,18 @@ Before use this template make sure you already installed this few things.
    ```
 2. Install NPM packages
    ```sh
-   npm install
+   pnpm install
    ```
-3. Create your ENV Configuration File or rename file '.env.example' to '.env' end edit the content
-   ```sh
-   VUE_API_BASE_URL=your_url
-   ```
-4. Done
-
+3. Done
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
 See the [open issues](https://github.com/raflijatnika/vue-2-ddd-patern/issues) for a list of proposed features (and known issues).
 
-
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -122,22 +113,22 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
 <!-- CONTACT -->
+
 ## Contact
 
-Your Name - [@iFlyyX_](https://twitter.com/iFlyyX_) - raflijatnikaa@gmail.com
+Your Name - [@iFlyyX\_](https://twitter.com/iFlyyX_) - raflijatnikaa@gmail.com
 
 Project Link: [https://github.com/raflijatnika/vue-2-ddd-patern](https://github.com/raflijatnika/vue-2-ddd-patern)
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [forks-shield]: https://img.shields.io/github/forks/raflijatnika/vue-2-ddd-patern.svg?style=for-the-badge
 [forks-url]: https://github.com/raflijatnika/vue-2-ddd-patern/network/members
 [stars-shield]: https://img.shields.io/github/stars/raflijatnika/vue-2-ddd-patern.svg?style=for-the-badge
