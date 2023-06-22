@@ -1,6 +1,6 @@
 {
-  "name": "vue-2-ddd-patern",
-  "version": "0.1.0",
+  "name": "roketin-test-case-frontend",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
